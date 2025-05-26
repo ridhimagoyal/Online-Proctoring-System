@@ -51,7 +51,7 @@ Post-exam, each candidate receives:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
@@ -86,32 +86,15 @@ Post-exam, each candidate receives:
 
 **Ridhima Goyal**  
 Second-year CSE (AI) student at IGDTUW  
-💡 Passionate about building ethical and secure AI solutions
+
+**Arya Shekhar**  
+Second-year ECE (AI) student at IGDTUW  
 
 ---
 
 ## 📃 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-✅ Next Steps:
-Replace ./path/to/your-image.png with the actual paths or URLs to your images in your GitHub repo.
-
-Update the GitHub repo URL in the clone section.
-
-Add a LICENSE file if you want MIT license.
-
-Let me know if you'd like badges (e.g., build status, Python version) or help with setting up folders like static/, templates/, or model/.
-
-
-
-
-
-
-
-
-
-
-Skills
 
 
 
