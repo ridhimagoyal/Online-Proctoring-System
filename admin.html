@@ -1,0 +1,55 @@
+<!-- templates/admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Online Proctor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>The Online Exam Proctor</h1>
+        <div class="profile">👤 Profile</div>
+    </header>
+
+    <main class="admin-panel">
+        <section class="user-summary">
+            <img src="https://via.placeholder.com/100" alt="User Image">
+            <h2>John Doe</h2>
+            <p><strong>Exam Status:</strong> Fail (Cheating)</p>
+            <p><strong>Trust Score:</strong> 63</p>
+            <p><strong>Total Score:</strong> 46</p>
+        </section>
+
+        <section class="violations">
+            <h3>Violation Records</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Time</th>
+                        <th>Duration</th>
+                        <th>Evidence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for v in logs %}
+                    <tr>
+                        <td>{{ v.type }}</td>
+                        <td>{{ v.time }}</td>
+                        <td>{{ v.duration }} seconds</td>
+                        <td>
+                            {% if v.type == "Common Noise" %}
+                                <a href="#">Audio Link</a>
+                            {% else %}
+                                <a href="#">Video Link</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
