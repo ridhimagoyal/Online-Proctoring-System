@@ -14,13 +14,13 @@ An intelligent and user-friendly web application designed to ensure academic int
 
 ### 🧪 Exam Interface
 
-![Exam Test](./path/to/076dc5bf-db2e-463a-96bc-344301e495c2.png)
+![WhatsApp Image 2025-05-26 at 23 48 55_ecaa9b3a](https://github.com/user-attachments/assets/dd8c29d5-c39c-4945-a847-d48a463260cf)
 
 The user is greeted with an intuitive quiz start screen. Once started, the system begins monitoring and analyzing behavior in the background.
 
 ### 📊 Result Dashboard
 
-![Result Dashboard](./path/to/c2b2a156-ccf1-4862-8fb8-d6426602e9eb.png)
+![WhatsApp Image 2025-05-26 at 23 49 30_e27e9b3e](https://github.com/user-attachments/assets/3a2d10b6-5290-4ffa-be7d-2e07b6dadfde)
 
 Post-exam, each candidate receives:
 - **Exam Status**: Pass/Fail with reason (e.g., Cheating)
